@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-30T13:00:02 IST" name="Suite" finished-at="2022-09-30T13:00:03 IST" duration-ms="612">
+    <groups>
+      <group name="Smoke Testing">
+        <method signature="GroupExecutionUsingGroups_01.testCase02()[pri:0, instance:testng.GroupExecutionUsingGroups_01@2473d930]" name="testCase02" class="testng.GroupExecutionUsingGroups_01"/>
+        <method signature="GroupExecutionUsingGroups_02.testCase03()[pri:0, instance:testng.GroupExecutionUsingGroups_02@48e4374]" name="testCase03" class="testng.GroupExecutionUsingGroups_02"/>
+      </group> <!-- Smoke Testing -->
+      <group name="Adhoc Testing">
+        <method signature="GroupExecutionUsingGroups_01.testCase01()[pri:0, instance:testng.GroupExecutionUsingGroups_01@2473d930]" name="testCase01" class="testng.GroupExecutionUsingGroups_01"/>
+        <method signature="GroupExecutionUsingGroups_02.testCase04()[pri:0, instance:testng.GroupExecutionUsingGroups_02@48e4374]" name="testCase04" class="testng.GroupExecutionUsingGroups_02"/>
+      </group> <!-- Adhoc Testing -->
+    </groups>
+    <test started-at="2022-09-30T13:00:02 IST" name="Test" finished-at="2022-09-30T13:00:03 IST" duration-ms="612">
+      <class name="testng.GroupExecutionUsingGroups_02">
+        <test-method signature="testCase03()[pri:0, instance:testng.GroupExecutionUsingGroups_02@48e4374]" started-at="2022-09-30T13:00:03 IST" name="testCase03" finished-at="2022-09-30T13:00:03 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase03 -->
+        <test-method signature="testCase04()[pri:0, instance:testng.GroupExecutionUsingGroups_02@48e4374]" started-at="2022-09-30T13:00:03 IST" name="testCase04" finished-at="2022-09-30T13:00:03 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase04 -->
+      </class> <!-- testng.GroupExecutionUsingGroups_02 -->
+      <class name="testng.GroupExecutionUsingGroups_01">
+        <test-method signature="testCase01()[pri:0, instance:testng.GroupExecutionUsingGroups_01@2473d930]" started-at="2022-09-30T13:00:02 IST" name="testCase01" finished-at="2022-09-30T13:00:02 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+        <test-method signature="testCase02()[pri:0, instance:testng.GroupExecutionUsingGroups_01@2473d930]" started-at="2022-09-30T13:00:03 IST" name="testCase02" finished-at="2022-09-30T13:00:03 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase02 -->
+      </class> <!-- testng.GroupExecutionUsingGroups_01 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

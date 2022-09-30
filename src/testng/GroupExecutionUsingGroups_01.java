@@ -17,6 +17,6 @@ public class GroupExecutionUsingGroups_01 {
 	}
 	@Test(groups = "Integration Testing")
 	public static void testCase04() {
-		System.out.println("Test Case five executed");
+		System.out.println("Test Case four executed");
 	}
 }

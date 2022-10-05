@@ -10,11 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class UsageOfMoveToElement {
-<<<<<<< HEAD
-	public static void main(String[] args) {
-=======
 	public static void main(String[] args) throws Throwable {
->>>>>>> duplicate_master
 		//Set the driver executable path
 		System.setProperty("webdriver.chrome.driver", "/Users/kishoremv/Downloads/Selenium/chromedriver");
 		//Instantiate the browser specific class
@@ -35,10 +31,7 @@ public class UsageOfMoveToElement {
 		Actions actions=new Actions(driver);
 		//call the moveToElement on the target element
 		actions.moveToElement(forgotPW).perform();
-<<<<<<< HEAD
-=======
 		Thread.sleep(3000);
->>>>>>> duplicate_master
 		//Post condition
 		driver.quit();
 		

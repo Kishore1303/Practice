@@ -17,6 +17,10 @@ public class GroupExecutionUsingGroups_01 {
 	}
 	@Test(groups = "Integration Testing")
 	public static void testCase04() {
+<<<<<<< HEAD
 		System.out.println("Test Case four executed");
+=======
+		System.out.println("New Case executed");
+>>>>>>> duplicate_master
 	}
 }
